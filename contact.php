@@ -4,7 +4,7 @@
 	$email=$_POST['email'];
 	$mobile=$_POST['mobile'];
 	$msg=$_POST['message'];
-
+/*
 	$to = "ag528927@gmail.com";
 	
     $subject = "This is subject";
@@ -20,6 +20,35 @@
 	else{
 		echo "fail";
 	}
+*/
 
-	
+	$sub = 'From Abhishek Website';
+	$msg = $name.' wants to contact you, having contact info: '.$mobile. 'and '.$email.' and Has a message: '.$msg;
+
+	require 'PHPMailer/PHPMailerAutoload.php';
+	$mail = new PHPMailer;
+	$mail->IsSMTP();
+	$mail->SMTPDebug = 1;
+	$mail->SMTPAuth = true;
+	$mail->SMTPSecure = 'ssl';
+	$mail->Host = 'smtp.gmail.com';
+	$mail->Port = 465;
+	$mail->Username = 'ag528927@gmail.com';
+	$mail->Password = '45476569';
+	$mail->setFrom('ag528927@gmail.com');
+	$mail->Subject = $sub;
+	$mail->Body = $msg;
+	$mygmail ='ag528927@gmail.com';
+	$mail->AddAddress($mygmail);
+
+	if($mail->Send()){
+		echo "send";
+		header('Location: index.html');
+		
+	}
+	else{
+		echo "not send";
+	}
+
+
  ?>
