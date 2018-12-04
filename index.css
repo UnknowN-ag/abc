@@ -1,0 +1,258 @@
+
+.navbar .navbar-toggler{
+	font-size: 20px;
+	color: white;
+	
+}
+.navbar .navbar-toggler i{
+	font-size: 20px;
+	color: white;
+	
+}
+.navbar .navbar-brand{
+	font-family: forte;
+	font-size: 25px;
+	color: white;
+	font-weight: 500;
+	text-shadow: 0 3px 10px red,0 -4px 15px black;
+}
+
+.navbar ul li a{
+	font-size: 18px;
+	color: white;
+	font-weight: 600;
+	letter-spacing: 1px;
+	transition: .3s;
+}
+
+.navbar ul li a.active{
+	color: #fed136;
+}
+
+
+.navbar ul li a:hover{
+	color: #fed136;
+}
+
+
+/*-------------------section1------------------*/
+.sec1{
+	background-image: url(images/box.jpg);
+	
+	background-attachment: fixed;
+	
+	background-size: 100% 100%;
+}
+
+.sec1{
+	text-align: center;
+	padding-top: 200px;
+	color: white;
+	padding-bottom: 200px;
+}
+.sec1 h1{
+	font-family: forte;
+	font-size: 6vw;
+
+}
+.sec1 p{
+	font-family: Baskerville Old Face;
+	font-size: 25px;
+}
+/*---------------section2------------------*/
+
+
+.sec2{
+	padding-top: 100px;
+	padding-bottom: 80px;
+	background-color: #e7edf3;
+}
+
+.sec2  .container .row div{
+	padding-bottom: 20px;
+}
+
+
+.sec2 .container h1{
+	font-size: 60px;
+	font-family: forte;
+	color: #fed136; 
+}
+.sec2 .container h5{
+	font-size: 40px;
+	font-family: forte;
+	 
+}
+.sec2 .container h2{
+	font-family: Cooper Black;
+	color: #fed136; 
+}
+.sec2 .container p{
+	font-size: 20px;
+	font-family:Baskerville Old Face;
+	font-weight: 550;
+	
+	 
+}
+.sec2 .text-center i{
+	font-size: 80px;
+}
+.sec2 .container .btn{
+	font-size: 20px;
+	font-weight: 600;
+	padding: 10px 20px;
+}
+
+/*------------------section3-----------*/
+.sec3{
+	padding-top: 100px;
+	padding-bottom: 150px;
+}
+.sec3 h2{
+	text-align: center;
+	font-size: 60px;
+	font-family: forte;
+	color: #fed136; 
+}
+.sec3 .container-fluid .p p{
+	padding-bottom: 50px;
+	font-size: 40px;
+	font-family:forte;
+	font-weight: 550;
+}
+/*----------------section4-----------------*/
+.sec4{
+	background-image: url(images/action.jpg);
+	
+	background-size: 100% 100%;
+}
+.sec4{
+	text-align: center;
+	color: white;
+	padding-top: 100px;
+	padding-bottom: 70px;
+	
+}
+.sec4 h1{
+	font-family: forte;
+	font-size: 6vw;
+	text-align: center;
+	color: white;
+	padding-bottom: 25px;
+}
+.sec4 .jumbotron{
+	background-color: black;
+	opacity: .7;
+}
+.sec4 .jumbotron h6{
+	text-align: left;
+	font-size: 25px;
+	padding-left: 30px;
+	
+}
+.sec4 .jumbotron p{
+	text-align: left;
+	padding-left: 30px;
+	padding-bottom: 40px;
+}
+.sec4 form input{
+
+	border: none;
+	outline: none;
+	background: transparent;
+	width: 80%;
+	height: 40px;
+	font-size: 25px;
+	color: white;
+	margin-bottom: 15px;
+	border-bottom: 3px solid red;
+	letter-spacing: 1px;
+}
+.sec4 form textarea{
+
+	border: none;
+	outline: none;
+	background: transparent;
+	width: 80%;
+	height: 150px;
+	font-size: 25px;
+	color: white;
+	margin-bottom: 10px;
+	border-bottom: 3px solid red;
+	letter-spacing: 1px;
+
+}
+.sec4 .btn{
+	margin-top: 20px;
+	padding-right: 20px;
+	padding-left: 20px;
+	font-family: elephant;
+	text-align: center;
+	color: white;
+	background-color: red;
+	font-size: 25px;
+	border: 2px solid white;
+	letter-spacing: 2px;
+
+}
+/*
+.sec4 .btn:hover{
+	color: red;
+	border: 2px solid red;
+	background-color: white;
+}
+
+/*
+.sec4 form input[type="submit"]{
+	
+	margin-top: 30px;
+	text-align: center;
+	width: 100px;
+	font-family: elephant;
+	border: 1px solid white;
+	border-radius: 10px;
+	font-size: 20px;
+	color: white;
+	padding-left: 30px;
+	padding-right: 30px;
+	background: red; 
+	cursor: pointer;
+}
+*/
+
+/*---------------footer--------------*/
+
+footer{
+	padding-top: 60px;
+	padding-bottom: 50px;
+	text-align: center;
+	background-color: #2c3e50;
+}
+footer h4{
+	font-size: 30px;
+	font-family: Baskerville Old Face;
+	color: white;
+	padding-bottom: 10px;
+}
+footer .btn{
+	border: 2px solid white;
+	width: 50px;
+}
+footer .btn:hover{
+	border: 2px solid white;
+	width: 50px;
+}
+
+.footer a i{
+	font-size: 25px;
+
+}
+
+.copyright{
+	text-align: center;
+	background-color: black;
+	
+	color: white;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
