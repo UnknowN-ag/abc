@@ -34,7 +34,7 @@
 	$mail->Host = 'smtp.gmail.com';
 	$mail->Port = 465;
 	$mail->Username = 'ag528927@gmail.com';
-	$mail->Password = '45476569';
+	$mail->Password = '**********';
 	$mail->setFrom('ag528927@gmail.com');
 	$mail->Subject = $sub;
 	$mail->Body = $msg;
